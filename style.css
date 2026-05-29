@@ -103,10 +103,12 @@ img {
   height: 100vh;
   min-height: 560px;
   background: url("img/vilnius.jpg") center center / cover no-repeat;
-  display: flex;
-  align-items: flex-end;
-  padding: 0 3rem 5rem;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 
 .hero-overlay {
   position: absolute;
@@ -121,7 +123,8 @@ img {
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 700px;
+  max-width: 900px;
+  margin: 0;
 }
 
 .hero-content h1 {
@@ -137,11 +140,13 @@ img {
   font-size: 1.05rem;
   color: rgba(255, 255, 255, 0.88);
   margin-bottom: 2rem;
-  max-width: 520px;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
 }
 
 .hero-buttons {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
