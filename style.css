@@ -348,7 +348,7 @@ img {
 }
 
 .contact-card {
-  background: #111827;
+  background: #202735;
   color: #ffffff;
   padding: 3.5rem 3rem;
   border-radius: 16px;
@@ -377,7 +377,7 @@ img {
 
 .contact p {
   font-size: 0.975rem;
-  color: #111827;
+  color: #202735;
   margin-bottom: 2rem;
 }
 
@@ -399,7 +399,7 @@ img {
 
 /* ===== FOOTER ===== */
 .footer {
-  background: #111827;
+  background: #202735;
   color: #d1d5db;
   padding: 4rem 3rem 2rem;
 }
