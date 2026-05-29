@@ -348,8 +348,8 @@ img {
 }
 
 .contact-card {
-  background: #8f95a1;
-  color: #000000;
+  background: #111827;
+  color: #ffffff;
   padding: 3.5rem 3rem;
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
@@ -359,7 +359,7 @@ img {
   display: block;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #313131;
+  color: #c4c3c3;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 1.25rem;
