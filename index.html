@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vilniaus GIS žemėlapių portalas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="nav-logo">
+        <span class="nav-logo-icon">&#9678;</span>
+        Vilniaus GIS
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#" class="active">Pradžia</a></li>
+        <li><a href="#about">Apie</a></li>
+        <li><a href="#maps">Žemėlapiai</a></li>
+        <li><a href="pages/contacts.html">Kontaktai</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1>Vilniaus miesto<br />GIS žemėlapių portalas</h1>
+
+        <p>
+          Interaktyvūs GIS žemėlapiai, erdvinių duomenų analizė ir
+          praktinių darbų metu sukurti geografiniai sprendimai Vilniaus miestui.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#maps" class="btn btn-primary">Naršyti žemėlapius</a>
+          <a href="#about" class="btn btn-outline">Sužinoti daugiau</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="description">
+      <h2>Interaktyvūs Vilniaus miesto žemėlapiai</h2>
+
+      <p>
+        Šioje svetainėje pateikiami praktinių užduočių metu sukurti
+        interaktyvūs GIS žemėlapiai. Juose analizuojami Vilniaus miesto
+        viešojo transporto, gyventojų pasiskirstymo, geriamojo vandens stotelių,
+        eismo įvykių, mokyklų ir miesto problemų registravimo duomenys.
+      </p>
+
+      <p>
+        Žemėlapiai sukurti naudojant kepler.gl, Geoportal, QGIS Cloud ir
+        ArcGIS Online technologijas. Svetainė skirta
+        <strong>mokymo tikslams</strong>.
+      </p>
+    </section>
+
+    <main id="maps" class="maps">
+      <section class="map-section">
+        <div class="map-text">
+          <h2>Viešojo transporto stotelių ir gyventojų skaičiaus 3D žemėlapis</h2>
+          <p>
+            Vilniaus miesto seniūnijų 3D žemėlapis, kuriame seniūnijų aukštis
+            vaizduoja gyventojų skaičių konkrečioje teritorijoje. Žemėlapyje
+            taip pat pateikiamas viešojo transporto stotelių pasiskirstymas.
+          </p>
+          <a href="1_praktinis/map_1_a.html" class="btn btn-map">Atidaryti žemėlapį &rarr;</a>
+        </div>
+
+        <div class="map-image">
+          <img src="img/kepler_1_map.png" alt="Viešojo transporto ir gyventojų 3D žemėlapis" />
+        </div>
+      </section>
+
+      <section class="map-section map-section--reverse">
+        <div class="map-text">
+          <h2>Geriamojo vandens stotelės</h2>
+          <p>
+            Interaktyvus Vilniaus miesto geriamojo vandens stotelių žemėlapis.
+            Žemėlapis leidžia įvertinti stotelių pasiskirstymą miesto teritorijoje
+            ir jų prieinamumą skirtingose vietose.
+          </p>
+          <a href="1_praktinis/map_2_a_1.html" class="btn btn-map">Atidaryti žemėlapį &rarr;</a>
+        </div>
+
+        <div class="map-image">
+          <img src="img/kepler_2_map.png" alt="Geriamojo vandens stotelių žemėlapis" />
+        </div>
+      </section>
+
+      <section class="map-section">
+        <div class="map-text">
+          <h2>Eismo įvykių dinamika</h2>
+          <p>
+            Laiko animacija paremto žemėlapio pagalba vaizduojama eismo įvykių
+            dinamika Vilniaus mieste. Žemėlapis padeda stebėti, kaip eismo
+            įvykiai pasiskirsto erdvėje ir laike.
+          </p>
+          <a href="1_praktinis/map_3.html" class="btn btn-map">Atidaryti žemėlapį &rarr;</a>
+        </div>
+
+        <div class="map-image">
+          <img src="img/kepler_3_map.png" alt="Eismo įvykių dinamikos žemėlapis" />
+        </div>
+      </section>
+
+      <section class="map-section map-section--reverse">
+        <div class="map-text">
+          <h2>Vilniaus mokyklos</h2>
+          <p>
+            Teminis Vilniaus miesto mokyklų žemėlapis, kuriame pateikiamas
+            ugdymo įstaigų išsidėstymas miesto teritorijoje. Žemėlapis padeda
+            analizuoti švietimo įstaigų pasiekiamumą ir erdvinį pasiskirstymą.
+          </p>
+          <a href="2_praktinis/map.html" class="btn btn-map">Atidaryti žemėlapį &rarr;</a>
+        </div>
+
+        <div class="map-image">
+          <img src="img/geoportal_mokyklos_map.png" alt="Vilniaus mokyklų žemėlapis" />
+        </div>
+      </section>
+
+      <section class="map-section">
+        <div class="map-text">
+          <h2>Eismo įvykiai</h2>
+          <p>
+            Geoportal aplinkoje publikuotas eismo įvykių žemėlapis, kuriame
+            vaizduojami eismo įvykiai pagal pasirinktus duomenų rodiklius.
+            Žemėlapis skirtas eismo saugumo situacijos analizei Vilniaus mieste.
+          </p>
+          <a href="2_praktinis/map2.html" class="btn btn-map">Atidaryti žemėlapį &rarr;</a>
+        </div>
+
+        <div class="map-image">
+          <img src="img/geoportal_eismo_ivykiu_map.png" alt="Eismo įvykių žemėlapis" />
+        </div>
+      </section>
+
+      <section class="map-section map-section--reverse">
+        <div class="map-text">
+          <h2>Problemų registravimas</h2>
+          <p>
+            ArcGIS Online aplikacija, skirta miesto problemoms registruoti.
+            Naudotojai gali pažymėti problemines vietas, pateikti informaciją
+            ir prisidėti prie miesto aplinkos stebėsenos.
+          </p>
+          <a href="3_praktinis/pranesimu_registravimas.html" class="btn btn-map">Atidaryti žemėlapį &rarr;</a>
+        </div>
+
+        <div class="map-image">
+          <img src="img/arcgis_map.png" alt="Problemų registravimo žemėlapis" />
+        </div>
+      </section>
+
+      <section class="map-section">
+        <div class="map-text">
+          <h2>Problemų peržiūra</h2>
+          <p>
+            ArcGIS Online žemėlapis, skirtas registruotų miesto problemų
+            peržiūrai. Žemėlapyje galima matyti pateiktus pranešimus ir jų
+            erdvinį pasiskirstymą Vilniaus miesto teritorijoje.
+          </p>
+          <a href="3_praktinis/pranesimu_perziura.html" class="btn btn-map">Atidaryti žemėlapį &rarr;</a>
+        </div>
+
+        <div class="map-image">
+          <img src="img/arcgis_map.png" alt="Problemų peržiūros žemėlapis" />
+        </div>
+      </section>
+    </main>
+
+    <section class="contact">
+      <div class="contact-card">
+        <span class="contact-label">Kontaktai</span>
+        <h2>Turite klausimų apie GIS žemėlapius?</h2>
+        <p>
+          Susisiekite dėl svetainėje pateiktų žemėlapių, naudotų duomenų
+          ar GIS projektų kūrimo.
+        </p>
+        <a href="pages/contacts.html" class="btn btn-primary">Susisiekti</a>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Vilniaus GIS portalas</h3>
+          <p>
+            Vilniaus universiteto GIS studijų projektas. Svetainėje pateikiami
+            interaktyvūs žemėlapiai, skirti Vilniaus miesto erdvinių duomenų
+            vizualizavimui ir analizei.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Žemėlapiai</h3>
+          <ul>
+            <li><a href="1_praktinis/map_1_a.html">Viešojo transporto ir gyventojų 3D žemėlapis</a></li>
+            <li><a href="1_praktinis/map_2_a_1.html">Geriamojo vandens stotelės</a></li>
+            <li><a href="1_praktinis/map_3.html">Eismo įvykių dinamika</a></li>
+            <li><a href="2_praktinis/map.html">Vilniaus mokyklos</a></li>
+            <li><a href="2_praktinis/map2.html">Eismo įvykiai</a></li>
+            <li><a href="3_praktinis/pranesimu_registravimas.html">Problemų registravimas</a></li>
+            <li><a href="3_praktinis/pranesimu_perziura.html">Problemų peržiūra</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Nuorodos</h3>
+          <ul>
+            <li><a href="https://www.geoportal.lt" target="_blank">Geoportalas</a></li>
+            <li><a href="https://vilnius.lt/" target="_blank">Vilniaus miesto savivaldybė</a></li>
+            <li><a href="https://www.vu.lt" target="_blank">Vilniaus universitetas</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Vilniaus GIS portalas &mdash; Gabrielė Žvaginytė</p>
+      </div>
+    </footer>
+  </body>
+</html>
