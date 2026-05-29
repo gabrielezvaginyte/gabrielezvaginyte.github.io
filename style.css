@@ -238,18 +238,23 @@ img {
 }
 
 .map-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   align-items: center;
+  text-align: center;
 }
 
 .map-section--reverse {
-  direction: rtl;
+  direction: ltr;
 }
 
 .map-section--reverse > * {
   direction: ltr;
+}
+
+.map-text {
+  max-width: 800px;
 }
 
 .map-text h2 {
@@ -267,6 +272,8 @@ img {
 }
 
 .map-image {
+  width: 100%;
+  max-width: 900px;
   aspect-ratio: 4 / 3;
   border-radius: 12px;
   overflow: hidden;
@@ -283,6 +290,7 @@ img {
 
 .map-image:hover img {
   transform: scale(1.03);
+
 }
 
 /* ===== PAGE HEADER ===== */
