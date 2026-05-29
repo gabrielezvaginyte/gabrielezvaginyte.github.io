@@ -125,6 +125,8 @@ img {
   z-index: 1;
   max-width: 900px;
   margin: 0;
+  transform: translateY(80px);
+
 }
 
 .hero-content h1 {
@@ -175,7 +177,7 @@ img {
 .btn-outline {
   background:  #cc6b6b;
   color: #fff;
-  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border: 1.5px solid ;
 }
 
 .btn-map {
