@@ -356,7 +356,7 @@ img {
 }
 
 .contact-card {
-  background: #3d3d3d;
+  background: #2d343c;
   color: #ffffff;
   padding: 3.5rem 3rem;
   border-radius: 16px;
@@ -407,7 +407,7 @@ img {
 
 /* ===== FOOTER ===== */
 .footer {
-  background: #3d3d3d;
+  background: #2d343c;
   color: #d1d5db;
   padding: 4rem 3rem 2rem;
 }
